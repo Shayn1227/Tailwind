@@ -9,39 +9,42 @@
     <title>Gerenciar de perfis</title>
 </head>
 
-<body class="bg-gray-900 text-white">
+<body class="bg-gray-900 text-gray-300 text-xl">
     <div class="pl-12 pt-6"><img class="w-28" src="img/Netflix_2015_logo.svg.png" alt=""></div>
     <div class="h-screen flex items-center justify-center flex-col">
         <div class="flex flex-col gap-10">
-            <div class="text-5xl">Editar perfil</div>
+            <div class="text-6xl text-white  border-b">Editar perfil</div>
             <!--mb-6-->
-            <div class="flex">
+            <div class="flex border-b"><!-- border-b -->
                 <div class="mr-4">
                     <img src="img/perfil-1.png" class="w-32">
                 </div>
                 <div>
-                    <input class="bg-gray-400 pl-3 py-1 text-lg w-full" type="text" value="Casa">
-                    <div>Idioma:</div>
-                    <select class="bg-gray-500">
+                    <input class="bg-gray-400 text-white pl-3 py-1 text-lg w-96" type="text" value="Casa">
+                    <div class="mt-8 mb-2">Idioma:</div>
+                    <select class="bg-black border border-white py-1 pl-2 pr-12 text-white">
                         <option value="">Português</option>
                     </select>
                 </div>
             </div>
             <div class="ml-32">
-                <div>Configurações de classificação etária:</div>
-                <div>Todas as classificações etárias</div>
-                <div>Mostrar titulos de todas as classificações etárias para este perfil</div>
-                <button>Editar</button>
+                <div class="my-2">Configurações de classificação etária:</div>
+                <button class="bg-gray-700 text-white px-3 py-1 uppercase rounded">Todas as classificações
+                    etárias</button>
+                <div class="mt-2 text-base">Mostrar titulos de todas as classificações etárias para este perfil</div>
+                <button
+                    class="mt-6 uppercase border px-4 py-1 text-gray-400 tracking-widest border-gray-500">Editar</button>
             </div>
-            <div class="ml-32">
-                <div>Controles de inicio automático</div>
-                <div>
+            <div class="ml-32 border-b"></div> <!----------------------------------------------------->
+            <div class="ml-32 border-b">
+                <div class="text-2xl">Controles de inicio automático</div>
+                <div class="text-base">
                     <input type="checkbox" name="check1" id="check1">
-                    <label for="check1">Iniciar automatimente</label>
+                    <label class="ml-2" for="check1">Iniciar automatimente</label>
                 </div>
-                <div>
+                <div class="text-base">
                     <input type="checkbox" name="check2" id="check2">
-                    <label for="check2">Reproduzir autmaticamente</label>
+                    <label class="ml-2" for="check2">Reproduzir autmaticamente</label>
                 </div>
             </div>
             <div>
