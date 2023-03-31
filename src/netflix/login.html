@@ -5,12 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../dist/">
+    <link rel="stylesheet" href="../../dist/output.css">
     <title>Login netflix</title>
 </head>
 
-<body class="bg-blue-500">
-
+<body style="background-image: url(img/BR-pt-20230327-popsignuptwoweeks-perspective_alpha_website_large.jpg);"
+    class="bg-blue-500 text-white">
+    <div class="text-base">
+        <div class="ml-14 mt-6 h-20"><img src="img/Netflix_2015_logo.svg.png" class="w-40" alt=""></div> <!---Titulo--->
+        <div class="h-screen flex flex-col items-center">
+            <form class="max-w-md flex flex-col gap-8 rounded bg-black opacity-90 pb-36 pt-16 px-20">
+                <div class="text-3xl font-semibold">Entrar</div>
+                <div class="space-y-4">
+                    <input class="w-full py-2 rounded" type="email">
+                    <input class="w-full py-2 rounded" type="password">
+                </div>
+                <div>
+                    <div class="mb-3">
+                        <button class="w-full bg-red-600 py-2 font-semibold rounded-md">Entrar</button>
+                    </div>
+                    <div class="flex items-center justify-between text-sm text-gray-300">
+                        <div class="flex items-center gap-1">
+                            <input type="checkbox" name="check" id="check">
+                            <label for="check">Lembre-se de mim</label>
+                        </div>
+                        <a class="hover:underline" href="#">Preciso de ajuda?</a>
+                    </div>
+                </div>
+                <div class="mt-8 text-gray-300 text-sm">
+                    <div class="mb-4">
+                        Novo por aqui? <a class="text-white hover:underline" href="#">Assine agora</a>
+                    </div>
+                    <div class="text-xs">
+                        Esta página é protegida pelo Google reCAPTCHA para garantir que você
+                        não é um robô. <a class="text-blue-600 hover:underline" href="#">Saiba mais.</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
