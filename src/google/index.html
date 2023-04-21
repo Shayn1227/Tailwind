@@ -30,8 +30,8 @@
     </div>
     <!-- FIM TOPO -->
 
-    <div class="h-screen flex items-center justify-center">
-        <div class="w-1/4 flex flex-col">
+    <div class="flex items-center justify-center">
+        <div class="w-1/4 flex flex-col pt-24">
             <div class="mb-10 mx-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" width="272" height="92">
                     <path fill="#EA4335"
@@ -48,21 +48,31 @@
                 </svg>
             </div>
 
-            <div>
-                <input class="w-full border border-gray-300 rounded-full p-2" type="text"
-                    placeholder="Pesquise no Google ou escreva um URL">
-            </div>
-
-            <div class="mx-auto mt-8 flex items-center flex-col">
+            <div class="relative">
+                <input
+                    class="w-full border border-gray-300 focus:outline-none focus:placeholder-white placeholder-gray-600 shadow-md rounded-full py-2 px-16"
+                    type="text" placeholder="Pesquise no Google ou escreva um URL">
                 <button>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-12 h-12">
+                        stroke="currentColor" class="w-4 h-4 stroke-gray-700 absolute left-6 top-3">
                         <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                     </svg>
-
                 </button>
-                <label for="">Adicionar ata...</label>
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-4 absolute top-3 right-6 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="mx-auto mt-2 px-2 py-4 hover:bg-gray-200 flex items-center flex-col">
+                <button>
+                    <ion-icon class="w-6 h-6 p-3 mb-2 bg-gray-100 rounded-full" name="add"></ion-icon>
+                </button>
+                <label class="text-sm" for="">Adicionar ata...</label>
             </div>
 
         </div>
