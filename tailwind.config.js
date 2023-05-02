@@ -27,6 +27,9 @@ module.exports = {
       },
       fontSize: {
         '9xl': "9rem"
+      },
+      fontFamily: {
+        'arial': 'Arial'
       }
     },
   },
