@@ -11,7 +11,10 @@ module.exports = {
         '290px': '290px',
         '396px': '396px',
         '500px': '500px',
-        '980px': '980px'
+        '980px': '980px',
+        '7': '1.75rem',
+        '75px': '75px',
+        '210px': '210px'
       },
       colors: {
         'hoverspt': '#18D760',
@@ -21,7 +24,16 @@ module.exports = {
         'main-blue': '#1877F2',
         'main-blue-hover': '#166FE5',
         'main-green': '#42B72A',
-        'main-green-hover': '#36AA20'
+        'main-green-hover': '#36AA20',
+        'darkblue-500': '#485769',
+        'darkblue-600': '#37475A',
+        'dark-blue-700': '#232F3E',
+        'dark-blue-900': '#191E26',
+        'dark-blue-950': '#131A22',
+        'gold-100': '#FEBD69',
+        'gold-200': '#FAA63A',
+        'orange-650': '#E47911',
+        'yellow-350': '#F0C148'
       },
       backgroundImage: theme => ({
         'spotify-theme': 'url(../img/bursts.svg)',
