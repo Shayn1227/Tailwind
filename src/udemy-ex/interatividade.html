@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../dist/output.css">
+    <title>Interatividade</title>
+</head>
+
+<body>
+    <div class="m-4">
+        <!-- appearance = Tira a seta-->
+        <select class="appearance-none">
+            <option value="">Teste</option>
+        </select>
+
+        <select>
+            <option value="">Teste</option>
+        </select>
+    </div>
+
+    <div class="h-20 bg-pink-400 cursor-pointer"></div>
+    <div class="h-20 bg-pink-600 cursor-wait"></div>
+    <div class="h-20 bg-pink-900 cursor-not-allowed"></div>
+    <div class="h-20 bg-pink-200 cursor-text"></div>
+
+    <div class="m-4">
+        <input class="outline-none" type="text" placeholder="Clica em mim">
+        <input type="text" placeholder="Clica em mim 2">
+    </div>
+
+    <div class="m-4 bg-gray-300 p-4">
+        <select class="pointer-events-none">
+            <option value="">Teste Pointer</option>
+        </select>
+
+        <select>
+            <option value="">Teste Pointer</option>
+        </select>
+
+        <div class="m-4">
+            <textarea class="pointer-events-none" name="" id="" cols="30" rows="10"></textarea>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+    </div>
+
+    <div class="m-4 bg-blue-400 p-4">
+        <textarea name="" id="" cols="30" rows="10" class="resize-none"></textarea>
+        <textarea name="" id="" cols="30" rows="10" class="resize-x"></textarea>
+        <textarea name="" id="" cols="30" rows="10" class="resize-y"></textarea>
+        <textarea name="" id="" cols="30" rows="10" class="resize"></textarea>
+    </div>
+</body>
+
+</html>
