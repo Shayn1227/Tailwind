@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 @layer components {
-    .btn {
-        @apply px-4 py-2 bg-blue-600 text-white rounded;
+    .item-nav-mid {
+        @apply mr-4 border border-transparent rounded-sm px-2 py-1;
     }
 
-    .btn-gray {
-        @apply px-4 py-2 bg-gray-400 text-white rounded;
+    .item-nav-mid:hover {
+        @apply border-white;
     }
 }
