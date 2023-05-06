@@ -31,7 +31,7 @@
                 <div class="w-full md:w-auto flex-grow md:ml-3 mr:0 pt-1 order-2 md:order-none">
                     <form class="flex">
                         <select
-                            class="hidden md:block p-2 text-xs text-gray-700 bg-gray-100 hover:bg-gray-300 rounded-tl rounded-bl border border-gray-500"
+                            class="hidden md:block p-2 text-xs text-gray-700 bg-gray-100 hover:bg-gray-300 rounded-tl rounded-bl border-r border-gray-500"
                             name="" id="">
                             <option value="">Livros</option>
                         </select>
@@ -96,7 +96,7 @@
                             <li class="item-nav-mid">
                                 Atendimento ao Cliente
                             </li>
-                            <li class="item-nav-mid">""
+                            <li class="item-nav-mid">
                                 Eletrônicos
                             </li>
                             <li class="item-nav-mid">
@@ -337,7 +337,7 @@
                                 <img class="rounded w-full md:w-75px mb-2 mx-auto" src="img/cat8.jpg" alt="">
                                 <a href="#">Infantil</a>
                             </li>
-                            <li class="text-center mx-auto mb-4 md:mb-0">
+                            <li class="text-center md:mx-3 mx-auto mb-4 md:mb-0">
                                 <img class="rounded w-full md:w-75px mb-2 mx-auto" src="img/cat9.jpg" alt="">
                                 <a href="#">Negocios</a>
                             </li>
@@ -489,7 +489,7 @@
     <footer class="flex flex-col text-white">
         <!-- FOOTER SUPERIOR -->
         <div class="py-4 text-center bg-darkblue-600 hover:darkblue-500 text-sm">
-            <p class="">Voltar ao inicio</p>
+            <p class="cursor-pointer">Voltar ao inicio</p>
         </div>
 
         <div class="flex flex-wrap md:flex-no-wrap md:justify-around py-10 md:px-20 bg-darkblue-700">
@@ -510,6 +510,7 @@
                     </li>
                 </ul>
             </div>
+
             <div class="w-1/2 md:w-auto mb-4 md:mb-0">
                 <h4 class="font-bold mb-2">Ganhe dinheiro conosco</h4>
                 <ul class="text-xs w-3/4">
@@ -524,6 +525,7 @@
                     </li>
                 </ul>
             </div>
+
             <div class="w-1/2 md:w-auto mb-4 md:mb-0">
                 <h4 class="font-bold mb-2">Conheça-nos</h4>
                 <ul class="text-xs w-3/4">
@@ -544,6 +546,7 @@
                     </li>
                 </ul>
             </div>
+
             <div class="w-1/2 md:w-auto mb-4 md:mb-0">
                 <h4 class="font-bold mb-2">Pagamentos</h4>
                 <ul class="text-xs w-3/4">
@@ -555,6 +558,96 @@
                     </li>
                 </ul>
             </div>
+        </div>
+
+        <!-- FOOTER INDERMEDIARIO -->
+        <div class="hidden md:flex flex-col items-center bg-darkblue-700 border-t border-gray-700 pt-6 pb-4">
+            <img src="img/amazon_logo.png" alt="" class="w-20">
+            <ul class="flex flex-wrap justify-center text-xs pt-4 text-gray-400 w-3/4">
+                <li class="px-2 border-r border-gray-600 hover:underline">
+                    <a href="#">Austrália</a>
+                </li>
+                <li class="px-2 border-r border-gray-600 hover:underline">
+                    <a href="#">Alemanha</a>
+                </li>
+                <li class="px-2 border-r border-gray-600 hover:underline">
+                    <a href="#">Canada</a>
+                </li>
+                <li class="px-2 border-r border-gray-600 hover:underline">
+                    <a href="#">China</a>
+                </li>
+                <li class="px-2 border-r border-gray-600 hover:underline">
+                    <a href="#">Cingapura</a>
+                </li>
+                <li class="px-2 border-r border-gray-600 hover:underline">
+                    <a href="#">Espanha</a>
+                </li>
+                <li class="px-2 border-r border-gray-600 hover:underline">
+                    <a href="#">Estados Unidos</a>
+                </li>
+                <li class="px-2 border-r border-gray-600 hover:underline">
+                    <a href="#">França</a>
+                </li>
+                <li class="px-2 border-r border-gray-600 hover:underline">
+                    <a href="#">Horlanda</a>
+                </li>
+                <li class="px-2 border-r border-gray-600 hover:underline">
+                    <a href="#">Índia</a>
+                </li>
+                <li class="px-2 border-r border-gray-600 hover:underline">
+                    <a href="#">Italia</a>
+                </li>
+                <li class="px-2 border-r border-gray-600 hover:underline">
+                    <a href="#">Japãp</a>
+                </li>
+                <li class="px-2 border-r border-gray-600 hover:underline">
+                    <a href="#">Mexico</a>
+                </li>
+                <li class="px-2 border-r border-gray-600 hover:underline">
+                    <a href="#">Emirados Arabes Unidos</a>
+                </li>
+                <li class="px-2 border-r border-gray-600 hover:underline">
+                    <a href="#">Reino Unido</a>
+                </li>
+                <li class="px-2 border-r border-gray-600 hover:underline">
+                    <a href="#">Turquia</a>
+                </li>
+            </ul>
+
+            <div class="flex text-xs">
+                <span class="text-gray-600 mr-2">E não esqueça:</span>
+                <a href="#" class="text-gray-400 hover:underline">Amazon Web Service</a>
+            </div>
+        </div>
+
+        <!-- FOOTER INFERIOR -->
+        <div class="flex flex-col items-center bg-darkblue-950 text-xs pt-8 md:pt-2">
+            <div class="flex flex-col md:flex-row mb-10">
+                <ul class="flex">
+                    <li class="px-2 border-none md:border-r text-center md:text-left border-gray-600 hover:underline">
+                        <a href="#">Condições de uso</a>
+                    </li>
+                    <li class="px-2 border-none md:border-r text-center md:text-left border-gray-600 hover:underline">
+                        <a href="#">Notificação de Privacidade</a>
+                    </li>
+                    <li class="px-2 border-none md:border-r text-center md:text-left border-gray-600 hover:underline">
+                        <a href="#">Cookies</a>
+                    </li>
+                    <li class="px-2 border-none md:border-r text-center md:text-left border-gray-600 hover:underline">
+                        <a href="#">Anuncios Baseados em Interesses</a>
+                    </li>
+                </ul>
+                <span class="text-center md:text-left mt-8 md:mt-0 ml-4 text-gray-600">Amazon.com, Inc ou suas
+                    afiliadas</span>
+            </div>
+            <p class="hidden md:block mb-10 text-gray-600">Amazon Serviços de Varejo do Brasil Ltda. | CNPJ
+                15.436.940/0001-03</p>
+
+            <p class="hidden md:block mb-10 text-gray-600">Av. Juscelino Kubischeck, 2041, Torre E, 18* andar - São
+                Paulo <a href="#" class="text-blue-800">Fale conosco</a></p>
+
+            <p class="hidden md:block mb-10 text-gray-600">Formas de pagamentos aceitas: cartões de creditos (Visa,
+                Mastercard, Elo e American Express) e boletos.</p>
         </div>
     </footer>
 </body>
