@@ -15,7 +15,8 @@ module.exports = {
         '7': '1.75rem',
         '75px': '75px',
         '210px': '210px',
-        '27rem': '27rem'
+        '27rem': '27rem',
+        '1200px': '1200px'
       },
       colors: {
         'hoverspt': '#18D760',
