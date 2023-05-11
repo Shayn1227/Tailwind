@@ -2162,16 +2162,8 @@ video {
   fill: #374151;
 }
 
-.fill-white {
-  fill: #fff;
-}
-
 .stroke-gray-700 {
   stroke: #374151;
-}
-
-.stroke-white {
-  stroke: #fff;
 }
 
 .object-cover {
