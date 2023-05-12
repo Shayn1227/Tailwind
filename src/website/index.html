@@ -10,9 +10,9 @@
 </head>
 
 <body class="bg-white">
-    <!-- HEADER 
+    <!-- HEADER -->
     <header>
-        <div class="flex justify-around text-white uppercase pl-28 pr-20 pt-5 text-xl">
+        <div class="flex justify-around text-white fixed w-full z-50 uppercase pl-28 pr-20 pt-5 text-xl">
             <div class="text-3xl font-bold">
                 <h1><span class="text-red-600">S</span>haif <span class="text-red-600">A</span>rfan</h1>
             </div>
@@ -28,18 +28,19 @@
             </div>
         </div>
     </header>
-     FIM HEADER -->
+    <!-- FIM HEADER -->
+
 
     <!-- HERO -->
-    <!--  after:content-[''] after:absolute after:h-full after:z-0 after:w-full after:top-0  after:left-0 after:bg-black after:opacity-50 -->
-    <div class="h-screen mb-36" style="background-image: url(img/hero-bg.png); background-size: cover; z-index: 100;">
-        <div class="w-1200px flex items-center mx-auto">
-            <div class="text-6xl text-white font-bold w-500px">
+    <div class="h-screen mb-36 after:content-[''] after:absolute relative after:h-full after:z-0 after:w-full after:top-0  after:left-0 after:bg-black after:opacity-50"
+        style="background-image: url(img/hero-bg.png); background-size: cover;">
+        <div class="w-1200px flex items-center absolute top-0 bottom-0 right-0 left-20 mx-auto z-10">
+            <div class="text-7xl text-white font-bold w-500px">
                 <h2>Hello,</h2>
                 <h2 class="my-6">My Name is</h2>
                 <h2 class="text-red-600">Arfan</h2>
                 <button
-                    class="uppercase text-3xl font-normal mt-10 px-12 py-4 hover:bg-red-600 border-2 border-red-600">Portfolio</button>
+                    class="uppercase text-3xl font-normal mt-10 px-14 py-4 hover:bg-red-600 border-2 border-red-600">Portfolio</button>
             </div>
         </div>
     </div>
@@ -85,8 +86,7 @@
                     aliquid necessitatibus veritatis laboriosam?</p>
             </div>
 
-            <div class="bg-gray-700 w-80 py-6 px-8 rounded-xl text-white after:bg-black space-y-3"
-                style="background-image: url(img/img-1.png);">
+            <div class="bg-gray-700 w-80 py-6 px-8 rounded-xl text-white" style="background-image: url(img/img-1.png);">
                 <img src="https://img.icons8.com/bubbles/100/000000/services.png" alt="">
                 <h3 class="text-xl uppercase">Web Design</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat amet perferendis nulla ad
@@ -118,7 +118,7 @@
                 </div>
 
                 <div>
-                    <img class="basis-1/2 w-full" src="img/img-1.png" alt="">
+                    <img class="" src="img/img-1.png" alt="">
                 </div>
             </div>
         </div>
