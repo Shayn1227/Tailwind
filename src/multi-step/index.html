@@ -11,7 +11,7 @@
 
 <body class="bg-gray-400">
     <div class="h-screen flex items-center justify-center">
-        <div class="bg-white p-8 w-1200px">
+        <div class="bg-white flex rounded-lg p-4">
             <!-- ESQUERDA -->
             <div class="" style="background-image: url(img/bg-sidebar-desktop.svg); width: 274px; height: 568px;">
                 <div class="px-8 pb-72 pt-4 space-y-4">
@@ -51,6 +51,41 @@
                 </div>
             </div>
             <!-- FIM ESQUERDA -->
+
+            <!-- DIREITO -->
+            <div class="pt-8 px-24">
+                <div class="text-gray-700">
+                    <div class="mb-8">
+                        <h2 class="text-3xl font-bold pb-3">Personal info</h2>
+                        <p class="text-gray-400">Please provide your name, email address, and phone number.</p>
+                    </div>
+
+                    <form class="space-y-6 font-semibold pb-32">
+                        <div class="flex flex-col space-y-1">
+                            <label for="">Name</label>
+                            <input class="border border-gray-300 rounded-lg py-2 pl-3" placeholder="e.g.Stephen King"
+                                type="text">
+                        </div>
+
+                        <div class="flex flex-col space-y-1">
+                            <label for="">Email Address</label>
+                            <input class="border border-gray-300 rounded-lg py-2 pl-3"
+                                placeholder="e.g.stephenking@lorem.com" type="text">
+                        </div>
+
+                        <div class="flex flex-col space-y-1">
+                            <label for="">Phone Number</label>
+                            <input class="border border-gray-300 rounded-lg py-2 pl-3" placeholder="e.g. +1 234 567 890"
+                                type="text">
+                        </div>
+                    </form>
+
+                    <div class="flex justify-end">
+                        <button class="bg-blue-900 text-white font-semibold rounded-md py-2 px-4">Next Stop</button>
+                    </div>
+                </div>
+            </div>
+            <!-- FIM DIREITO -->
         </div>
     </div>
 </body>
